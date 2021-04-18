@@ -9,11 +9,8 @@ x = myInputDataframe$x
 a = myInputDataframe$a
 y = x * a
 
-# Setup an empty R dataframe ready to accept output in SyncroSim datasheet format
-myOutputDataframe = datasheet(myScenario, name="helloworld_OutputDatasheet")
-
 # Copy output into this R dataframe
-myOutputDataframe[1:length(y),"y"] = y
+myOutputDataframe = data.frame(y=y)
 
 # Save this R dataframe back to the SyncroSim library's output datasheet
 saveDatasheet(myScenario, data=myOutputDataframe, name="helloworld_OutputDatasheet")
