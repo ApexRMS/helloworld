@@ -13,7 +13,7 @@ permalink: /
 ### The *Hello World* package is intended as an example of how to develop a simple [SyncroSim](https://syncrosim.com/) package. Instructions on how to develop this package from scratch are posted in the SyncroSim documentation on [creating a package](https://docs.syncrosim.com/how_to_guides/package_create_overview.html).
 
 
-The *Hello World* package is a simple example of how to create a basic package in SyncroSim. The tutorial covers concepts such as [creating the configuration file](https://docs.syncrosim.com/how_to_guides/package_create_bundle.html), [bundling and installing the package](https://docs.syncrosim.com/how_to_guides/package_create_bundle.html), [adding model code](https://docs.syncrosim.com/how_to_guides/package_create_logic.html), and [defining data](https://docs.syncrosim.com/how_to_guides/package_create_data.html).
+The *Hello World* package is a simple example of how to create a basic package in SyncroSim. The package is featured in the [creating a package](https://docs.syncrosim.com/how_to_guides/package_create_overview.html) tutorial, which covers concepts such as [creating the configuration file](https://docs.syncrosim.com/how_to_guides/package_create_bundle.html), [bundling and installing the package](https://docs.syncrosim.com/how_to_guides/package_create_bundle.html), [adding model code](https://docs.syncrosim.com/how_to_guides/package_create_logic.html), and [defining data](https://docs.syncrosim.com/how_to_guides/package_create_data.html).
 
 
 ## Requirements
@@ -35,6 +35,8 @@ For more information on **helloworld**, including a Quickstart Tutorial, see the
 <br>
 ## Links
 
+Access tutorial at [https://docs.syncrosim.com/how_to_guides/package_create_overview.html](https://docs.syncrosim.com/how_to_guides/package_create_overview.html)
+<br>
 Browse source code at
 [http://github.com/ApexRMS/helloworld/](http://github.com/ApexRMS/helloworld/)
 <br>
