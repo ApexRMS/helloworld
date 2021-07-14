@@ -43,4 +43,4 @@ title: Getting started
 <br>
 <br>
 
-For the complete tutorial on how to create the *Hello World* Package, see the [creating a package](https://docs.syncrosim.com/how_to_guides/package_create_overview.html) tutorial.
+For the complete tutorial on how to create the *Hello World* Package, see the [creating a package](https://docs.syncrosim.com/how_to_guides/package_create_overview.html) tutorial in the [SyncroSim documentation](https://docs.syncrosim.com/).
