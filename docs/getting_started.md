@@ -23,6 +23,8 @@ title: Getting started
 <br>
 3. First, check your executable location by clicking on **helloworld** Library in the <a href="https://docs.syncrosim.com/how_to_guides/library_overview.html" target="_blank">Library Explorer</a>, and then selecting **Library Properties** from the **File** menu. Select the **R Configuration** tab to check and/or set the location of your R program executable.
 <br>
+<img align="middle" style="padding: 13px" width="300" src="assets/images/package_R_configuration.PNG">
+<br>
 <br>
 4. To edit the Scenario inputs, right-click on the auto-generated empty **New Scenario** in the <a href="https://docs.syncrosim.com/how_to_guides/library_overview.html" target="_blank">Library Explorer</a> and select **Properties**. Then select the **Inputs** tab and enter pairs of values for your **x** and **a** model inputs in the grid.
 <br>
@@ -43,4 +45,4 @@ title: Getting started
 <br>
 <br>
 
-For the complete tutorial on how to create the *helloworld* Package, see the [creating a package](https://docs.syncrosim.com/how_to_guides/package_create_overview.html) tutorial in the [SyncroSim documentation](https://docs.syncrosim.com/).
+For the complete tutorial on how to create the *helloworld* Package, see the <a href="https://docs.syncrosim.com/how_to_guides/package_create_overview.html" target="_blank">creating a package</a> tutorial in the <a href="https://docs.syncrosim.com/" target="_blank">SyncroSim documentation</a>.
