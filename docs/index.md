@@ -18,7 +18,7 @@ The *helloworld* package is a simple example of how to create a basic package in
 
 ## Requirements
 
-This package requires SyncroSim <a href="https://syncrosim.com/download/" target="_blank">2.2.27</a>.
+This package requires the [latest SyncroSim release](https://syncrosim.com/download/).
 <br>
 <br>
 ## How to Install
