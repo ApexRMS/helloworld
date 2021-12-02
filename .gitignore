@@ -10,6 +10,5 @@ x64/
 *.pdb
 *.exe
 *.ssim
-*.ssimpkg
 *.db
 *.opendb
