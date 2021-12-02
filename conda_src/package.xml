@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package name="helloworld" displayName="Example demonstrating how to create a package" version="1.0.1" url="https://apexrms.github.io/helloworld/">
+<package name="helloworld" displayName="Hello World Package" version="1.0.0">
   <transformers>
-    <transformer
-      name="Primary"
-      isPrimary="True"
-      programName="Rscript"
-      programArguments="model.R"
-	  condaEnv="rsyncrosim.yml">
-      <datafeeds>
-        <datafeed
-          name="InputDatafeed"
-          displayName="Inputs"
-          dataScope="Scenario">
+    <transformer 
+		name="Primary" 
+		isPrimary="True" 
+		programName="python" 
+		programArguments="model.py"
+		condaEnv="helloworld_conda.yml"
+		isRunnable="True">
+	  <datafeeds>
+		  
+		<!--Model Inputs-->  
+        <datafeed name="InputDatafeed" displayName="Inputs" dataScope="Scenario">
           <datasheets>
             <datasheet name="InputDatasheet">
               <columns>
@@ -23,30 +23,38 @@
             </datasheet>
           </datasheets>
         </datafeed>
-        <datafeed
-          name="OutputDatafeed"
-          displayName="Outputs"
-          dataScope="Scenario"
-          isOutput="True">
+		  
+		<!--Model Outputs-->  
+        <datafeed name="OutputDatafeed"
+				  displayName="Outputs"
+				  dataScope="Scenario">
           <datasheets>
             <datasheet name="OutputDatasheet">
               <columns>
+				<column name="OutputDatasheetID" dataType="Integer" isPrimary="True"/>
                 <column name="ScenarioID" dataType="Integer"/>
                 <column name="y" dataType="Double" displayName="Value for y"/>
               </columns>
             </datasheet>
           </datasheets>
         </datafeed>
+		  
       </datafeeds>
     </transformer>
-  </transformers>
+  </transformers>	
   <layouts>
+	  
+	<!--Library Datafeeds Layout-->  
     <layout name="coreforms_LibraryDatafeeds">
-      <item name="core_Rconfig"/>
+      <item name="core_Pyconfig"/>
     </layout>
+	  
+	<!--Scenario Datafeeds Layout-->  
     <layout name="coreforms_ScenarioDatafeeds">
       <item name="InputDatafeed"/>
       <item name="OutputDatafeed"/>
     </layout>
+	  
   </layouts>
 </package>
+
