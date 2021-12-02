@@ -5,8 +5,7 @@
       name="Primary"
       isPrimary="True"
       programName="Rscript"
-      programArguments="model.R"
-	  condaEnv="rsyncrosim.yml">
+      programArguments="model.R">
       <datafeeds>
         <datafeed
           name="InputDatafeed"
