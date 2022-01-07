@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<template
+  name="example-library-remote"
+  displayName="Example Remote Template"
+  description="
+    {br}Example remote model template for the helloworld SyncroSim package."
+  location="https://github.com/ApexRMS/helloworld/raw/master/remote_template/Remote-Example-Model.zip"
+  liveUpdate="True">
+</template>
