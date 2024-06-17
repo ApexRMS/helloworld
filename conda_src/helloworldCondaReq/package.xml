@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package name="helloworld" displayName="Hello World" description="Example demonstrating how to create a package" version="2.0.0" url="https://apexrms.github.io/helloworld/">
+<package name="helloworldRequired" displayName="Hello World" description="Example demonstrating how to create a package" version="1.0.0" url="https://apexrms.github.io/helloworld/">
   
+    <builtFor package="helloworld" version="2.0.0"/>
+
     <dataSheet name="InputDatasheet" displayName="Inputs">
         <column name="x" dataType="Double" displayName="Value for x"/>
         <column name="a" dataType="Integer" displayName="Value for a"/>
