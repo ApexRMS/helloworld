@@ -2,7 +2,7 @@ library(rsyncrosim)      # Load SyncroSim R package
 myScenario = scenario()  # Get the SyncroSim scenario that is currently running
 
 # Load scenario's input datasheet from SyncroSim library into an R dataframe
-myInputDataframe = datasheet(myScenario, name="helloworld_InputDatasheet")
+myInputDataframe = datasheet(myScenario, name="helloworldRequired_InputDatasheet")
 
 # Extract model inputs from this R dataframe and then do calculations
 x = myInputDataframe$x
@@ -13,4 +13,4 @@ y = x * a
 myOutputDataframe = data.frame(y=y)
 
 # Save this R dataframe back to the SyncroSim library's output datasheet
-saveDatasheet(myScenario, data=myOutputDataframe, name="helloworld_OutputDatasheet")
+saveDatasheet(myScenario, data=myOutputDataframe, name="helloworldRequired_OutputDatasheet")
