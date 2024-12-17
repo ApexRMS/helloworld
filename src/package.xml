@@ -10,7 +10,7 @@
         <column name="y" dataType="Double" displayName="Value for y"/>
     </dataSheet>
 
-    <transformer name="Main" displayName="Hello World" programName="Rscript" programArguments="model.R">
+    <transformer name="Main" displayName="Hello World" programArguments="model.R">
         <dataSheet name="InputDatasheet" type="Input"/>
         <dataSheet name="OutputDatasheet" type="Output"/>
     </transformer>
