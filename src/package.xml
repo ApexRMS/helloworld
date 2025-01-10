@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package name="helloworld" displayName="Hello World" description="Example demonstrating how to create a package" version="2.0.1" url="https://apexrms.github.io/helloworld/">
-  
+
+    <!--Scenario Datasheets-->
+
+    <!--Model Inputs-->
     <dataSheet name="InputDatasheet" displayName="Inputs">
         <column name="x" dataType="Double" displayName="Value for x"/>
         <column name="a" dataType="Integer" displayName="Value for a"/>
     </dataSheet>
 
+    <!--Model Outputs-->
     <dataSheet name="OutputDatasheet" displayName="Outputs">
         <column name="y" dataType="Double" displayName="Value for y"/>
     </dataSheet>
 
-    <transformer name="Main" displayName="Hello World" programArguments="model.R">
+    <!--Transformer-->
+
+    <transformer name="Main" displayName="Hello World" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="1">
         <dataSheet name="InputDatasheet" type="Input"/>
         <dataSheet name="OutputDatasheet" type="Output"/>
     </transformer>
 
+<!--Layouts-->
+
+<!--Scenario Datafeeds Layout-->
     <layout type="Scenario">
       <item name="InputDatasheet"/>
       <item name="OutputDatasheet"/>
