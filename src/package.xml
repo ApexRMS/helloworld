@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package name="helloworld" displayName="Hello World (R)" description="Example demonstrating how to create a package" version="2.0.1" url="https://apexrms.github.io/helloworld/">
+<package name="helloworld" displayName="Hello World" description="Example demonstrating how to create a package" version="2.0.1" url="https://apexrms.github.io/helloworld/">
 
     <!--Scenario Datasheets-->
 
