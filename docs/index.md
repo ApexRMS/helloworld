@@ -24,9 +24,9 @@ This package requires the [latest SyncroSim release](https://syncrosim.com/downl
 
 ## How to Install
 
-Open SyncroSim and select **File -> Packages… -> Install…**, then select the **helloworld** package and click OK.
+Open SyncroSim and select **File > Local Packages... > Install from Server...**, then select the **helloworld** package and click OK.
 
-Alternatively, download <a href="https://github.com/ApexRMS/helloworld/releases/" target="_blank">the latest release from Github</a>. Open SyncroSim and navigate to packages, then install from file.
+Alternatively, download <a href="https://github.com/ApexRMS/helloworld/releases/" target="_blank">the latest release from Github</a>. Open SyncroSim and navigate to **File > Local Packages... > Install from File...**.
 <br>
 
 ## Getting Started
