@@ -3,5 +3,5 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - r-base=4.1.*
-  - r-rsyncrosim=2.1.9
+  - r-base>=4.1
+  - r-rsyncrosim>=2.0.0
