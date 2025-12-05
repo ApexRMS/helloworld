@@ -4,4 +4,4 @@ channels:
   - defaults
 dependencies:
   - r-base=4.1.*
-  - r-rsyncrosim
+  - r-rsyncrosim=2.1.9
