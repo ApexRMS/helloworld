@@ -16,7 +16,7 @@
 
     <!--Transformer-->
 
-    <transformer name="Main" displayName="Hello World" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="2">
+    <transformer name="Main" displayName="Hello World" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="3">
         <dataSheet name="InputDatasheet" type="Input"/>
         <dataSheet name="OutputDatasheet" type="Output"/>
     </transformer>
