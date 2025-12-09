@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package name="helloworld" displayName="Hello World" description="Example demonstrating how to create a package" version="2.1.0" url="https://apexrms.github.io/helloworld/" minSyncroSimVersion="3.1.0">
+<package name="helloworld" displayName="Hello World" description="Example demonstrating how to create a package" version="2.1.1" url="https://apexrms.github.io/helloworld/" minSyncroSimVersion="3.1.0">
 
     <!--Scenario Datasheets-->
 
@@ -16,7 +16,7 @@
 
     <!--Transformer-->
 
-    <transformer name="Main" displayName="Hello World" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="2">
+    <transformer name="Main" displayName="Hello World" programArguments="model.R" condaEnv="helloworldR.yml" condaEnvVersion="3">
         <dataSheet name="InputDatasheet" type="Input"/>
         <dataSheet name="OutputDatasheet" type="Output"/>
     </transformer>
