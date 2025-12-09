@@ -3,6 +3,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - r-base>=4.1.3
-  - r-rsyncrosim>=2.1.7
-  - r-terra>=1.5_21
+  - r-base=4.1.3
+  - r-rsyncrosim=2.1.7
+  - r-terra=1.5_21
