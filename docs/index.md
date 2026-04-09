@@ -47,12 +47,4 @@ Report a bug at
 
 ## Developers
 
-Colin Daniel (Author, maintainer)
-<br>
-Alex Embrey (Author)
-<br>
-Katie Birchard (Author)
-<br>
-Leonardo Frid (Author) <a href="https://orcid.org/0000-0002-5489-2337"><img align="middle" style="padding: 0.5px" width="17" src="assets/images/ORCID.png"></a>
-<br>
-Shreeram Senthivasan (Author)
+ApexRMS (Author, maintainer)
