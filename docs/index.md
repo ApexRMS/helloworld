@@ -47,4 +47,5 @@ Report a bug at
 
 ## Developers
 
-ApexRMS (Author, maintainer)
+[ApexRMS](https://apexrms.com/){:target="_blank"} (Author, maintainer)
+<br>
